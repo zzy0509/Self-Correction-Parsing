@@ -1,0 +1,13 @@
+The following is a sentence that has already been tokenized. Words are separated by white spaces. Please parse the sentence with given words. You only need to return the parsed results; no explanation is required.
+Here are some example:
+sentence: In 1974 , as the U.S. representative to the United Nations , he wrote an introduction to a book on world population in which he boasted of his leadership during his term in Congress in expanding family-planning services for the poor .
+parse tree: (S (PP (IN In) (NP (CD 1974))) (, ,) (PP (IN as) (NP (NP (DT the) (NNP U.S.) (NN representative)) (PP (TO to) (NP (DT the) (NNP United) (NNPS Nations))))) (, ,) (NP (PRP he)) (VP (VBD wrote) (NP (NP (DT an) (NN introduction)) (PP (TO to) (NP (NP (DT a) (NN book)) (PP (IN on) (NP (NN world) (NN population))))) (SBAR (WHPP (IN in) (WHNP (WDT which))) (S (NP (PRP he)) (VP (VBD boasted) (PP (IN of) (NP (NP (PRP$ his) (NN leadership)) (PP (IN during) (NP (NP (PRP$ his) (NN term)) (PP (IN in) (NP (NNP Congress))))) (PP (IN in) (S (VP (VBG expanding) (NP (NP (NN family-planning) (NNS services)) (PP (IN for) (NP (DT the) (JJ poor)))))))))))))) (. .))
+sentence: About the only way that USX now can get out of steel is to dish it out , piece by piece , in separate joint ventures , he adds .
+parse tree: (S (S (NP (NP (IN About) (DT the) (JJ only) (NN way)) (SBAR (IN that) (S (NP (NNP USX)) (ADVP (RB now)) (VP (MD can) (VP (VB get) (PP (IN out) (PP (IN of) (NP (NN steel))))))))) (VP (VBZ is) (S (VP (TO to) (VP (VB dish) (NP (PRP it)) (PRT (RP out)) (, ,) (NP (NP (NN piece)) (PP (IN by) (NP (NN piece)))) (, ,) (PP (IN in) (NP (JJ separate) (JJ joint) (NNS ventures)))))))) (, ,) (NP (PRP he)) (VP (VBZ adds)) (. .))
+sentence: Pharmaceuticals made across-the-board advances .
+parse tree: (S (NP (NNS Pharmaceuticals)) (VP (VBD made) (NP (JJ across-the-board) (NNS advances))) (. .))
+sentence: Albany escaped embarrassingly unscathed .
+parse tree: (S (NP (NNP Albany)) (VP (VBD escaped) (S (ADJP (RB embarrassingly) (JJ unscathed)))) (. .))
+sentence: Hoses and plastics together account for about 42 % of Trinova 's total annual sales .
+parse tree: (S (NP (NP (NNS Hoses) (CC and) (NNS plastics)) (ADVP (RB together))) (VP (VBP account) (PP (IN for) (NP (NP (QP (IN about) (CD 42)) (NN %)) (PP (IN of) (NP (NP (NNP Trinova) (POS 's)) (JJ total) (JJ annual) (NNS sales)))))) (. .))
+Input: 
